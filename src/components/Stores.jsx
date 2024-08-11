@@ -49,10 +49,15 @@ const stores = [
 ];
 
 export default function Stores() {
-  return (
+  return (    
+    
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
         {/* Welcome Message */}
+        {/* Under Development Alert */}
+        <div className="p-4 mb-4 text-blue-800 rounded-lg bg-blue-200 text-center" role="alert">
+          <span className="font-medium">This site is under development.</span> 
+        </div>
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-gray-900">Welcome to Ustaad</h1>
         </div>

@@ -6,7 +6,6 @@ import Stores from './Stores';
 const Landingpage = () => {
   return (
     <div>
-
       <main>
         <Stores />
       </main>
